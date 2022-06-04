@@ -4,6 +4,7 @@ import Feed from '../components/Feed';
 import Rightbar from '../components/Rightbar';
 import { Box,Stack } from '@mui/material';
 import Navbar from '../components/Navbar';
+import AddPosts from '../components/AddPosts';
 
 export default function Home() {
 
@@ -16,6 +17,7 @@ export default function Home() {
      <Feed />
      <Rightbar/>
      </Stack>
+     <AddPosts />
    </Box>
   )
 }
