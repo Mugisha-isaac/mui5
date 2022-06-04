@@ -21,7 +21,7 @@ export default function Home() {
   return (
    <div>
       <Button variant="text">Text</Button>
-      <Button variant="contained" startIcon={<DeleteIcon />} color='success' size='small'>Contained</Button>
+      <Button variant="contained" startIcon={<DeleteIcon />} color='secondary' size='small'>Contained</Button>
       <Button variant="outlined">Outlined</Button>
       <BlueButton>My button</BlueButton>
       <BlueButton>Another button</BlueButton>
